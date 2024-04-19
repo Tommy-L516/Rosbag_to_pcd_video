@@ -1,4 +1,12 @@
 
+"""
+    功能：将ROS bag文件中的点云数据转换为PCD文件，并将PCD文件转换为图像，最后生成视频。
+    输入：rosbag文件路径，输出路径
+    输出：生成的视频文件
+    注意：需要安装pyntcloud、matplotlib、opencv库
+"""
+    
+    
 import sys
 import matplotlib.pyplot as plt
 import cv2
